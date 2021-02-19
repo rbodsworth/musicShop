@@ -34,5 +34,22 @@ public class GuitarTest {
         assertEquals("sweet guitar riffs", guitar.play());
     }
 
+    @Test
+    public void guitarHasMaterial(){
+        assertEquals("wood", guitar.getMaterial());
+    }
+
+    @Test
+    public void guitarHasColour(){
+        assertEquals("black", guitar.getColour());
+    }
+
+    @Test
+    public void guitarHasInstrumentType(){
+        assertEquals(InstrumentType.GUITAR, guitar.getInstrumentType());
+    }
+
+
+
 
 }
