@@ -2,5 +2,5 @@ package Interfaces;
 
 public interface IPlay {
 
-    public String play(); 
+    public String play();
 }
