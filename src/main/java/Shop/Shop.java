@@ -27,6 +27,6 @@ public class Shop {
     }
 
     public void removeFromStock(ISell accessories){
-        this.stock.remove(accessories); 
+        this.stock.remove(accessories);
     }
 }
