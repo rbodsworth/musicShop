@@ -1,4 +1,5 @@
 import Instruments.Guitar;
+import Instruments.InstrumentType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -10,7 +11,7 @@ public class GuitarTest {
 
     @Before
     public void before(){
-        guitar = new Guitar("Fender", "Telecaster", 6);
+        guitar = new Guitar("wood","black", InstrumentType.GUITAR, "Fender", "Telecaster", 6);
     }
 
     @Test

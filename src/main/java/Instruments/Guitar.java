@@ -2,13 +2,14 @@ package Instruments;
 
 import Interfaces.IPlay;
 
-public class Guitar implements IPlay {
+public class Guitar extends Instruments implements IPlay {
 
     private String guitarBrandName;
     private String guitarModelName;
     private int numberOfGuitarStrings;
 
-    public Guitar(String guitarBrandName, String guitarModelName, int numberOfGuitarStrings){
+    public Guitar(String material, String colour, InstrumentType instrumentType, String guitarBrandName, String guitarModelName, int numberOfGuitarStrings){
+        super(material, colour, instrumentType);
         this.guitarBrandName = guitarBrandName;
         this.guitarModelName = guitarModelName;
         this.numberOfGuitarStrings = numberOfGuitarStrings;
