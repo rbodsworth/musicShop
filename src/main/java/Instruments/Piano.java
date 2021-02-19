@@ -2,11 +2,12 @@ package Instruments;
 
 import Interfaces.IPlay;
 
-public class Piano implements IPlay {
+public class Piano extends Instruments implements IPlay {
 
     private int numberOfPianoKeys;
 
-    public Piano(int numberOfPianoKeys){
+    public Piano(String material, String colour, InstrumentType instrumentType, int numberOfPianoKeys){
+        super(material, colour, instrumentType);
         this.numberOfPianoKeys = numberOfPianoKeys;
     }
 
