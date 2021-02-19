@@ -27,6 +27,6 @@ public class Guitar implements IPlay {
     }
 
     public String play() {
-        return "Sweet guitar riffs";
+        return "sweet guitar riffs";
     }
 }
